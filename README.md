@@ -6,6 +6,9 @@ The Brain Connectivity Toolbox (brain-connectivity-toolbox.net) is a MATLAB tool
 Complex network measures of brain connectivity: Uses and interpretations.
 Rubinov M, Sporns O (2010) NeuroImage 52:1059-69. 
 
+Author:
+Franco Pestilli The University of Texas at Austin
+
 ### This version of the Brain Connectivity Toolbox is meant to help people add the BCT git submodule to their git project
 
 ### Brain Connectivity Toolbox in other projects
