@@ -1,36 +1,56 @@
-# Brain Connectivity Toolbox (BCT)
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset=".github/brand/brainlife-mark-on-dark.svg">
+    <img src=".github/brand/brainlife-mark-on-light.svg" alt="brainlife.io" width="140">
+  </picture>
+</p>
 
-The Brain Connectivity Toolbox (brain-connectivity-toolbox.net) is a MATLAB toolbox for complex-network analysis of structural and functional brain-connectivity data sets.
+<h1 align="center">Brain Connectivity Toolbox (BCT)</h1>
 
-### Reference and citation
-Complex network measures of brain connectivity: Uses and interpretations.
-Rubinov M, Sporns O (2010) NeuroImage 52:1059-69. 
+<p align="center">
+  The MATLAB Brain Connectivity Toolbox, packaged to add as a git submodule.
+</p>
 
-Author:
-Franco Pestilli The University of Texas at Austin
+<p align="center">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-lightgrey.svg" alt="MIT license"></a>
+  <img src="https://img.shields.io/badge/Status-dormant-yellow.svg" alt="Status: dormant">
+  <a href="https://brainlife.io"><img src="https://img.shields.io/badge/brainlife.io-site-3b9fd0.svg" alt="brainlife.io"></a>
+  <a href="https://brainlife.io/docs"><img src="https://img.shields.io/badge/Docs-brainlife.io%2Fdocs-005981.svg" alt="Documentation"></a>
+  <a href="https://doi.org/10.1038/s41592-024-02237-2"><img src="https://img.shields.io/badge/DOI-10.1038%2Fs41592--024--02237--2-e57536.svg" alt="Nature Methods paper"></a>
+</p>
 
-### This version of the Brain Connectivity Toolbox is meant to help people add the BCT git submodule to their git project
+## 🧠 At a glance
 
-### Brain Connectivity Toolbox in other projects
-The Brain Connectivity Toolbox codebase is widely used by brain-imaging researchers, and has been ported to, included in, or modified in, the following projects:
+| | |
+|---|---|
+| 🧭 **What** | All functions of the [Brain Connectivity Toolbox](https://sites.google.com/site/bctnet/) in `BCT/`, for use as a submodule in brainlife Apps |
+| 🐍 **Python** | [bctpy](https://github.com/aestrivex/bctpy) |
+| 🕰️ **Last change** | 2020-12-16 |
 
-bctpy: Brain Connectivity Toolbox for Python.
-bct-cpp: Brain Connectivity Toolbox in C++.
-Human Connectome Project: An NIH consortium for mapping brain white-matter pathways.
-Virtual Brain Project: A consortium for simulation of primate brain-network dynamics.
-FieldTrip: Advanced analysis toolbox of MEG, EEG, and invasive electrophysiological data.
-CONN: Cross-platform software for the computation, display, and analysis of fcMRI data.
-GraphVar: A user-friendly GUI-based toolbox for graph-analyses of brain connectivity.
-Network Based Statistic Toolbox: A toolbox for testing hypotheses about the connectome.
-Neuroimaging Analysis Kit: A library of modules and pipelines for fMRI processing.
-Graph Theory GLM Toolbox: A GLM toolbox of brain-network graph-analysis properties.
-Brainnetome Toolkit: A MATLAB GUI toolkit of complex network measures.
-BioNeCT: A cohesive platform for analyzing brain network connectivity in EEG recordings.
-GRETNA: A toolbox for comprehensive analyses of topology of the brain connectome.
-MIBCA: Automated all-in-one connectivity toolbox with batch processing.
-GAT/bnets: Graph Analysis Toolbox of functional and structural brain networks.
-BASCO: Inter-regional functional connectivity analysis in event-related fMRI data.
-MNET: A fully automated all-in-one network analysis toolbox for fMRI and DTI.
-EEGNET: A toolbox for analyzing and visualizing M/EEG connectivity.
-BRAPH: Brain analysis using graph theory.
-FastFC: Efficient computation of functional brain networks. 
+## 🚀 Use it in an App
+
+```bash
+git submodule add https://github.com/brainlife/BCT
+```
+
+Then `addpath(genpath('BCT'))` in MATLAB.
+
+## 📚 Cite the toolbox
+
+> Rubinov M, Sporns O. Complex network measures of brain connectivity: uses and interpretations. *NeuroImage* 52:1059–1069 (2010). [doi:10.1016/j.neuroimage.2009.10.003](https://doi.org/10.1016/j.neuroimage.2009.10.003)
+
+## 📚 Citing
+
+If you use brainlife.io in your work, please cite:
+
+> Hayashi S, Caron BA, Heinsfeld AS, et al. brainlife.io: a decentralized and open-source cloud platform to support neuroscience research. *Nature Methods* 21:809–813 (2024). [doi:10.1038/s41592-024-02237-2](https://doi.org/10.1038/s41592-024-02237-2)
+
+## 🤝 Contributing
+
+Issues and pull requests are welcome in this repository. For help using brainlife.io, see the [documentation](https://brainlife.io/docs).
+
+## ⚖️ License
+
+[MIT](LICENSE) for this packaging; the Brain Connectivity Toolbox has its own licence (see [brain-connectivity-toolbox.net](https://sites.google.com/site/bctnet/)).
+
+<p align="center"><sub>brainlife.io · Brain data across scales. One place to analyze, share and publish it. · The University of Texas at Austin</sub></p>
